@@ -19,7 +19,7 @@ const FinalScreen = () => {
   return (
     <Box mt={30}>
       <Typography variant="h3" fontWeight="bold" mb={3}>
-        Final Score {score}
+        Final Score : {score}
       </Typography>
       <Button onClick={handleBackToSettings} variant="outlined">
         Repeat

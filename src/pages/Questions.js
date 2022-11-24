@@ -72,6 +72,8 @@ const Questions = () => {
     }
   };
 
+  console.log(response.results[questionIndex].correct_answer);
+
   return (
     <Box>
       <Typography variant="h4">Questions {questionIndex + 1}</Typography>
@@ -85,6 +87,10 @@ const Questions = () => {
           </Button>
         </Box>
       ))}
+
+      <Box mt={5}>
+        Score: {score} / {response.results.length}
+      </Box>
     </Box>
   );
 };

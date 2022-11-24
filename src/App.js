@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Container maxWidth="sm">
-        <Box textAlign="center" mt={5}>
+        <Box mt={5}>
           <Switch>
             <Route path="/" exact>
               <Typography variant="h2" fontWeight="bold">
