@@ -1,2 +1,2 @@
-# Quiz Application built with react
-Access on https://quiz-kudhneplv-vika.vercel.app/
+# Quiz App
+Link : quiz-vika.vercel.app
